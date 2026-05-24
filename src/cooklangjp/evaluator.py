@@ -1,6 +1,6 @@
 import json
-from ast import Recipe, Step, Note, Metadata, Text, Ingredient, Tool, Timer, Amount
-from cookjson import (
+from cooklangjp.ast import Recipe, Step, Note, Metadata, Text, Ingredient, Tool, Timer, Amount
+from cooklangjp.cookjson import (
     AmountJSON,
     IngredientJSON,
     IngredientItemJSON,
