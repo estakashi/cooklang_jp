@@ -1,10 +1,10 @@
 import json
 import os
-from cookjson import RecipeJSON
-from parser import CookParser
-from evaluator import CookEvaluator
+from cooklangjp.cookjson import RecipeJSON
+from cooklangjp.parser import CookParser
+from cooklangjp.evaluator import CookEvaluator
 # 合成用に AST クラス（Recipe）をインポート
-from ast import Recipe 
+from cooklangjp.ast import Recipe 
 
 class CookExecutor:
     def __init__(self, parser=None, evaluator=None):
