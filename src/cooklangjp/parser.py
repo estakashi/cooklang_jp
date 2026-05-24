@@ -1,6 +1,6 @@
 import ply.yacc as yacc
-from lexer import CookLexer
-from ast import Amount, Ingredient, Text, Tool, Timer, Note, Metadata, Step, Recipe
+from cooklangjp.lexer import CookLexer
+from cooklangjp.ast import Amount, Ingredient, Text, Tool, Timer, Note, Metadata, Step, Recipe
 # Parser
 class CookParser:
     tokens = CookLexer.tokens
