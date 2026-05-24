@@ -9,3 +9,13 @@ recipe = ex.execute("test.cook")
 recipe
 ```
 のようにすれば、dictが返ってくるはずです。
+
+## インストール
+``` bash
+git clone https://github.com/estakashi/cooklang_jp
+cd cooklang_jp
+pip install -e .
+```
+
+## テスト
+git cloneしたディレクトリでpytestを叩けば動きます。
