@@ -1,6 +1,16 @@
 # cooklang_jp
 Python PLYで日本語対応cooklangを作ってみました。
-cooklangで書いたレシピファイル.cookを用意して
+cooklangで書いたレシピファイル.cook
+``` text
+>> title: ポトフ
+>> servings: 2
+
+@じゃがいも{2個}を切る
+@にんじん{1本}を切る
+#鍋で炒める
+~10分煮る
+```
+を用意して
 ``` python
 from cooklangjp.executor import CookExecutor
 
