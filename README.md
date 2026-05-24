@@ -11,11 +11,17 @@ recipe
 のようにすれば、dictが返ってくるはずです。
 
 ## インストール
+このリポジトリをクローンして、開発モードでインストールします。
 ``` bash
 git clone https://github.com/estakashi/cooklang_jp
 cd cooklang_jp
 pip install -e .
 ```
+これで `cooklangjp` パッケージが利用可能になります。
 
 ## テスト
 git cloneしたディレクトリでpytestを叩けば動きます。
+``` bash
+cd cooklang_jp
+pytest
+```
